@@ -40,7 +40,9 @@ The analysis seeks to answer questions such as:
 •	  Which customer segments contribute most to business revenue?
 
 •	  Which products and categories generate the highest profit?
+
 ## 3. Project Objectives
+
 •	 Explore and analyse structured retail data using PostgreSQL.
 
 •	 Retrieve, filter, and aggregate customer and transaction records.
@@ -98,6 +100,7 @@ payment_method	Payment method
 order_status	Completed, Pending, or Cancelled
 The tables are connected through customer_id, establishing a one-to-many relationship: one customer can have multiple orders.
 Dataset details
+
 It includes five product categories:
 
 •	 Mobile Phones
@@ -111,9 +114,11 @@ It includes five product categories:
 •	 Home Appliances
 
 Payment methods include M-Pesa, Cash, Card, and Bank Transfer.
+
 ## 6. Data Preparation and Business Rules
 The analysis considers data relationships, record completeness, appropriate data types, transaction statuses, and consistent aggregation.
 The following calculation conventions are used:
+
 Gross sales
 quantity * unit_price
 Discounted revenue
@@ -121,9 +126,10 @@ quantity * unit_price * (1 - discount / 100.0)
 Cost of goods sold
 quantity * cost_price
 Profit
-(quantity * unit_price * (1 - discount / 100.0))
-- (quantity * cost_price)
+(quantity * unit_price * (1 - discount / 100.0))- (quantity * cost_price)
+  
 For realized revenue and profitability reporting, only Completed orders are included.
+
 •	 Completed orders represent realized sales.
 
 •	 Pending orders are analysed separately as outstanding activity.
@@ -141,7 +147,9 @@ Joins and Customer Analytics	Q21–Q28	Customer spending, customer activity, seg
 Subqueries and CTEs	Q29–Q34	Above-average spending, monthly performance, profitability, and inactivity
 Window Functions	Q35–Q42	Ranking, cumulative revenue, month-over-month growth, and customer quartiles
 Advanced Business Intelligence	Q43–Q46	Views, user-defined functions, customer segmentation, and management reporting
+
 Key SQL techniques demonstrated
+
 •	 SELECT, WHERE, ORDER BY, LIMIT, and DISTINCT
 
 •	 Aggregate functions: SUM(), COUNT(), AVG(), MIN(), and MAX()
@@ -161,6 +169,7 @@ Key SQL techniques demonstrated
 •	 Index creation
 
 ## 8. Key Business Metrics
+
 The project examines several performance indicators:
 Metric	Business purpose
 Total customers	Measures customer base size
@@ -202,7 +211,9 @@ The screenshots will pertain:
 6.	Monthly revenue trend.
 These screenshots provide visual evidence of SQL execution and help communicate the analytical findings.
 ## 12. Skills Demonstrated
+
 Technical skills
+
 • 	PostgreSQL and relational database management.
 
 •	 SQL querying and data aggregation.
@@ -216,6 +227,7 @@ Technical skills
 •	 Database indexing and query performance awareness.
 
 Analytical skills
+
 •	 Data exploration and validation.
 
 •	 Revenue and profitability analysis.
@@ -231,6 +243,7 @@ Analytical skills
 ## 13. Limitations and Future Improvements
 The project is based on synthetic data and is limited to the information available in the customer and order tables. It does not include detailed inventory, supplier, customer feedback, or marketing campaign records.
 Potential improvements include:
+
 • 	Integrating inventory and supplier data.
 
 • 	Introducing sales forecasting.
@@ -238,6 +251,7 @@ Potential improvements include:
 •	  Implementing automated data-quality checks and scheduled reporting.
 
 ## 14. Conclusion
+
 The Retail Sales & Customer Intelligence Using PostgreSQL project demonstrates how SQL can be applied to real-world business questions within a retail environment.
 Through 46 structured queries, the project progresses from basic data exploration to advanced analytical techniques and reusable business intelligence outputs.
 It demonstrates the use of transactional data to evaluate sales performance, customer behaviour, product profitability, geographical trends, and operational activity.
