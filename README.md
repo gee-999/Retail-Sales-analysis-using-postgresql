@@ -1,4 +1,4 @@
-# Retail Sales & Customer Intelligence Using PostgreSQL
+# Exploring Retail Sales Performance Through PostgreSQL
 
 ## 1. Project Overview
 This project demonstrates the application of PostgreSQL and SQL in analysing retail sales data, understanding customer purchasing behaviour, and generating business insights to support data-driven decision-making.
