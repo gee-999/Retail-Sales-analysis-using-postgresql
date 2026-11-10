@@ -4,7 +4,7 @@ Business Insights and Recommendations – Duka Smart Electronics
 
 The analysis of Duka Smart Electronics' retail sales data using PostgreSQL revealed important patterns in product category performance, customer purchasing behaviour, geographical sales distribution, customer retention and monthly revenue trends. These findings provide useful information about the company's performance and highlight areas where management can make improvements. The following five insights explain the key findings, their business significance and the recommended actions.
 
-##1. Product Category Performance and Revenue Contribution
+##  1. Product Category Performance and Revenue Contribution
 
 The product category analysis revealed that Mobile Phones generated the highest revenue at KSh 947,583.25, followed by Computing at KSh 865,453.45, Electronics at KSh 753,539.45 and Accessories at KSh 643,498.90. Home Appliances recorded the lowest revenue at KSh 550,754.65.
 This shows that product categories contribute differently to the company's overall revenue, with Mobile Phones emerging as the strongest revenue-generating category. The difference in performance could be influenced by customer demand, product preferences and purchasing patterns. However, revenue alone does not establish which category is the most profitable because product costs also need to be considered.
