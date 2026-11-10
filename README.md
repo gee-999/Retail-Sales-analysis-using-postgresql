@@ -4,7 +4,9 @@
 This project demonstrates the application of PostgreSQL and SQL in analysing retail sales data, understanding customer purchasing behaviour, and generating business insights to support data-driven decision-making.
 The project is based on a fictional electronics retailer, Duka Smart Electronics, which sells mobile phones, computing equipment, electronics, accessories, and home appliances across different Kenyan cities.
 Using a synthetic retail dataset, the analysis explores sales performance, product profitability, customer value, geographical trends, and order outcomes.
+
 The project consists of 46 SQL business questions, progressing from fundamental queries to advanced analytical techniques and business intelligence reporting.
+
 Project details
 Item	Description
 Project	Retail Sales & Customer Intelligence
@@ -16,28 +18,45 @@ Dataset	Synthetic retail data
 Customers	150 records
 Orders	800 records
 Analysis Period	January 2025 – September 2026
+
 ## 2. Business Problem
 Retail businesses generate large amounts of transactional data, but raw records alone do not provide sufficient information for effective decision-making.
 Management needs to understand which products generate the most revenue, which customers contribute the greatest value, how sales change over time, and whether operational issues such as cancelled orders affect performance.
 This project uses SQL to transform raw customer and transaction records into meaningful business information.
 The analysis seeks to answer questions such as:
+
 • 	Which product categories generate the highest revenue?
+
 •	  Who are the highest-spending customers?
+
 •	  Which cities contribute most to sales?
+
 •	  How does monthly revenue change over time?
+
 •	  Which customers have never purchased?
+
 •	  What proportion of orders are cancelled?
+
 •	  Which customer segments contribute most to business revenue?
+
 •	  Which products and categories generate the highest profit?
 ## 3. Project Objectives
 •	 Explore and analyse structured retail data using PostgreSQL.
+
 •	 Retrieve, filter, and aggregate customer and transaction records.
+
 •  Evaluate sales revenue, costs, and profitability.
+
 •	 Identify high-value customers and purchasing patterns.
+
 •	 Analyse product, category, and geographical performance.
+
 •	 Examine completed, pending, and cancelled orders.
+
 •	 Apply advanced SQL techniques to solve business problems.
+
 •	 Develop reusable reporting outputs and translate findings into recommendations.
+
 ## 4. Tools and Technologies
 Tool	Purpose
 PostgreSQL	Database management and SQL analysis
@@ -80,11 +99,17 @@ order_status	Completed, Pending, or Cancelled
 The tables are connected through customer_id, establishing a one-to-many relationship: one customer can have multiple orders.
 Dataset details
 It includes five product categories:
+
 •	 Mobile Phones
+
 •	 Computing
+
 •	 Electronics
+
 •	 Accessories
+
 •	 Home Appliances
+
 Payment methods include M-Pesa, Cash, Card, and Bank Transfer.
 ## 6. Data Preparation and Business Rules
 The analysis considers data relationships, record completeness, appropriate data types, transaction statuses, and consistent aggregation.
@@ -100,9 +125,13 @@ Profit
 - (quantity * cost_price)
 For realized revenue and profitability reporting, only Completed orders are included.
 •	 Completed orders represent realized sales.
+
 •	 Pending orders are analysed separately as outstanding activity.
+
 •	 Cancelled orders are excluded from realized revenue and reported as an operational metric.
+
 This distinction helps maintain consistency in business performance reporting.
+
 ## 7. SQL Analysis: 46 Business Questions
 The analysis is organised into six sections, each demonstrating different SQL concepts and business applications.
 Section	Questions	Focus
@@ -114,14 +143,23 @@ Window Functions	Q35–Q42	Ranking, cumulative revenue, month-over-month growth,
 Advanced Business Intelligence	Q43–Q46	Views, user-defined functions, customer segmentation, and management reporting
 Key SQL techniques demonstrated
 •	 SELECT, WHERE, ORDER BY, LIMIT, and DISTINCT
+
 •	 Aggregate functions: SUM(), COUNT(), AVG(), MIN(), and MAX()
+
 •	 GROUP BY and HAVING
+
 •	 INNER JOIN and LEFT JOIN
+
 •	 Subqueries and Common Table Expressions (CTEs)
+
 •	 Window functions: ROW_NUMBER(), RANK(), DENSE_RANK(), LAG(), and NTILE()
+
 •	 Date functions and time-based analysis
+
 •	 Views and user-defined functions
+
 •	 Index creation
+
 ## 8. Key Business Metrics
 The project examines several performance indicators:
 Metric	Business purpose
@@ -166,24 +204,39 @@ These screenshots provide visual evidence of SQL execution and help communicate 
 ## 12. Skills Demonstrated
 Technical skills
 • 	PostgreSQL and relational database management.
+
 •	 SQL querying and data aggregation.
+
 •	 Joins, subqueries, and CTEs.
+
 •	 Window functions and analytical ranking.
+
 •	 Views and user-defined functions.
+
 •	 Database indexing and query performance awareness.
+
 Analytical skills
 •	 Data exploration and validation.
+
 •	 Revenue and profitability analysis.
+
 •	 Customer segmentation and behaviour analysis.
+
 •	 Sales trend analysis.
+
 •	 Business problem-solving.
+
 •	 Interpretation of results and business recommendations.
+
 ## 13. Limitations and Future Improvements
 The project is based on synthetic data and is limited to the information available in the customer and order tables. It does not include detailed inventory, supplier, customer feedback, or marketing campaign records.
 Potential improvements include:
 • 	Integrating inventory and supplier data.
+
 • 	Introducing sales forecasting.
+
 •	  Implementing automated data-quality checks and scheduled reporting.
+
 ## 14. Conclusion
 The Retail Sales & Customer Intelligence Using PostgreSQL project demonstrates how SQL can be applied to real-world business questions within a retail environment.
 Through 46 structured queries, the project progresses from basic data exploration to advanced analytical techniques and reusable business intelligence outputs.
