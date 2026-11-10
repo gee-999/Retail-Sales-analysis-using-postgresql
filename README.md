@@ -256,3 +256,7 @@ The Retail Sales & Customer Intelligence Using PostgreSQL project demonstrates h
 Through 46 structured queries, the project progresses from basic data exploration to advanced analytical techniques and reusable business intelligence outputs.
 It demonstrates the use of transactional data to evaluate sales performance, customer behaviour, product profitability, geographical trends, and operational activity.
 Most importantly, the project highlights that effective data analysis involves more than writing queries. It requires understanding business requirements, validating information, defining appropriate metrics, interpreting results, and communicating findings that support informed decision-making
+
+## Business Insights and Recommendations
+
+[View the detailed business insights here] README.md (business insight)
