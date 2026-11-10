@@ -258,5 +258,5 @@ It demonstrates the use of transactional data to evaluate sales performance, cus
 Most importantly, the project highlights that effective data analysis involves more than writing queries. It requires understanding business requirements, validating information, defining appropriate metrics, interpreting results, and communicating findings that support informed decision-making
 
 ## Business Insights and Recommendations
-The business insights generated from this analyses is available on the link below:
+The business insights generated from this analyses is broadly explained and provided in the business insight.md section provided in:
 [View Business Insights](Business_Insights.md)
