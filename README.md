@@ -259,4 +259,4 @@ Most importantly, the project highlights that effective data analysis involves m
 
 ## Business Insights and Recommendations
 The business insights generated from this analyses is available on the link below:
-[View Business Insights](README.md%20(business%20insight))
+[View Business Insights](Business_Insights.md)
